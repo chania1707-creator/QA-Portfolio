@@ -1,0 +1,10 @@
+# Bug Report – Login
+
+**Title:** Login button not responding on Safari  
+**Steps to reproduce:**  
+1. Open the demo site  
+2. Click on Login  
+**Expected Result:** Login form should appear  
+**Actual Result:** Nothing happens  
+**Environment:** macOS + Safari 16  
+**Severity:** Medium
