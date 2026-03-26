@@ -1,17 +1,23 @@
 # Bug Report – SauceDemo
 
-## Title
-Cart badge does not update after removing a product
+## Bug ID
+BR-001
+
+## Summary
+Cart badge does not update after removing a product.
 
 ## Environment
-Browser: Google Chrome  
-OS: Windows 11  
+| Parameter | Value |
+|-----------|-------|
+| Browser   | Google Chrome |
+| OS        | Windows 11 |
+| URL       | https://www.saucedemo.com |
 
-## Steps to reproduce
+## Steps to Reproduce
 1. Open https://www.saucedemo.com
 2. Login with:
-   - username: standard_user
-   - password: secret_sauce
+   - Username: `standard_user`
+   - Password: `secret_sauce`
 3. Add a product to the cart
 4. Remove the product from the cart
 
@@ -26,3 +32,6 @@ Medium
 
 ## Priority
 High
+
+## Screenshot
+![Cart Badge Issue](screenshots/cart-test.png)
