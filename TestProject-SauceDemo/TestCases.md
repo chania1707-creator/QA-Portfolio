@@ -11,7 +11,7 @@
 User is redirected to the products page.
 
 **Screenshot:**
-![Products Page](screenshots/products-page.png)
+![Products Page](../screenshots/products-page.png)
 
 ---
 
