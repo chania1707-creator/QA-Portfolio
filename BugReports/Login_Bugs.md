@@ -1,7 +1,7 @@
 ### 🐞 Bug Report: Locked Out User Cannot Login
 
 **Severity:** Medium  
-**Environment:** Chrome (latest), Windows 10  
+**Environment:** Chrome, Windows 10  
 
 ---
 
