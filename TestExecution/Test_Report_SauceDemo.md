@@ -25,7 +25,7 @@
 | Bug Description                           | Screenshot |
 |-------------------------------------------|------------|
 | Login error message not displayed correctly | ![Locked user error](../screenshots/locked-user.png) |
-| Cart icon does not update immediately after adding product | ![Cart bug](../screenshots/cart-bug.png) |
+| Cart icon does not update immediately after adding product | ![Cart bug](../screenshots/cart-test.png) |
 
 ## Summary
 - Total tests: 4  
