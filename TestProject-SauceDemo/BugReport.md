@@ -1,37 +1,34 @@
-# Bug Report – SauceDemo
+# Test Execution Report – SauceDemo
 
-## Bug ID
-BR-001
+## Test Environment
+- **Browser:** Chrome  
+- **OS:** Windows 11  
+- **Date:** March 2026  
+
+## Tested Features
+- Login
+- Product list
+- Add to cart
+- Checkout
+
+## Test Results
+
+| Test Case                   | Result |
+|------------------------------|--------|
+| Login with valid user        | ✅ Passed |
+| Login with invalid user      | ❌ Failed |
+| Add product to cart          | ✅ Passed |
+| Checkout process             | ✅ Passed |
+
+## Bugs Found
+
+| #  | Bug Description                                                   | Screenshot |
+|----|-------------------------------------------------------------------|------------|
+| 1  | Login error message not displayed correctly                       | ![Locked user error](../screenshots/locked-user.png) |
+| 2  | Epic sadface: Username and password do not match any user         | ![Invalid credentials](../screenshots/login-credentials-mismatch.png) |
+| 3  | Cart icon does not update immediately after adding product        | ![Cart bug](../screenshots/cart-test.png) |
 
 ## Summary
-Cart badge does not update after removing a product.
-
-## Environment
-| Parameter | Value |
-|-----------|-------|
-| Browser   | Google Chrome |
-| OS        | Windows 11 |
-| URL       | https://www.saucedemo.com |
-
-## Steps to Reproduce
-1. Open https://www.saucedemo.com
-2. Login with:
-   - Username: `standard_user`
-   - Password: `secret_sauce`
-3. Add a product to the cart
-4. Remove the product from the cart
-
-## Expected Result
-Cart icon should show 0 items.
-
-## Actual Result
-Cart badge still displays 1 item.
-
-## Severity
-Medium
-
-## Priority
-High
-
-## Screenshot
-![Cart Badge Issue](../screenshots/cart-test.png)
+- **Total tests:** 4  
+- **Passed:** 3  
+- **Failed:** 1  
