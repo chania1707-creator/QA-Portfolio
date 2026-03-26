@@ -1,9 +1,9 @@
 # Test Execution Report – SauceDemo
 
 ## Test Environment
-- Browser: Chrome  
-- OS: Windows 11  
-- Date: March 2026  
+- **Browser:** Chrome  
+- **OS:** Windows 11  
+- **Date:** March 2026  
 
 ## Tested Features
 - Login
@@ -15,19 +15,20 @@
 
 | Test Case                   | Result |
 |------------------------------|--------|
-| Login with valid user        | Passed |
-| Login with invalid user      | Failed |
-| Add product to cart          | Passed |
-| Checkout process             | Passed |
+| Login with valid user        | ✅ Passed |
+| Login with invalid user      | ❌ Failed |
+| Add product to cart          | ✅ Passed |
+| Checkout process             | ✅ Passed |
 
 ## Bugs Found
 
-| Bug Description                           | Screenshot |
-|-------------------------------------------|------------|
-| Login error message not displayed correctly | ![Locked user error](../screenshots/locked-user.png) |
-| Cart icon does not update immediately after adding product | ![Cart bug](../screenshots/cart-test.png) |
+| #  | Bug Description                                                   | Screenshot |
+|----|-------------------------------------------------------------------|------------|
+| 1  | Login error message not displayed correctly                       | ![Locked user error](../screenshots/locked-user.png) |
+| 2  | Epic sadface: Username and password do not match any user         | ![Invalid credentials](../screenshots/login-credentials-mismatch.png) |
+| 3  | Cart icon does not update immediately after adding product        | ![Cart bug](../screenshots/cart-test.png) |
 
 ## Summary
-- Total tests: 4  
-- Passed: 3  
-- Failed: 1  
+- **Total tests:** 4  
+- **Passed:** 3  
+- **Failed:** 1  
