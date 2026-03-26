@@ -26,7 +26,7 @@ User is redirected to the products page.
 Error message is displayed.
 
 **Screenshot:**
-![Locked User](screenshots/locked-user.png)
+![Locked User](../screenshots/locked-user.png)
 
 ---
 
@@ -39,4 +39,4 @@ Error message is displayed.
 Product is added to the shopping cart.
 
 **Screenshot:**
-![Cart Badge Issue](screenshots/cart-test.png)
+![Cart Badge Issue](../screenshots/cart-test.png)
