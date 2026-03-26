@@ -34,4 +34,4 @@ Medium
 High
 
 ## Screenshot
-![Cart Badge Issue](screenshots/cart-test.png)
+![Cart Badge Issue](../screenshots/cart-test.png)
