@@ -25,13 +25,6 @@ No instructions are provided to the user.
 ---
 
 ### 📷 Screenshot:
-![Locked user error](./screenshots/locked-user.png)
+![Locked user error](../screenshots/locked-user.png)
 
 *Screenshot shows error message displayed after login attempt with `locked_out_user` credentials.*
-### 📷 Screenshot:
-![Login button bug](./screenshots/login-button-bug.png)
-
----
-
-### 📝 Notes:
-The button appears clickable but does not trigger any action.
