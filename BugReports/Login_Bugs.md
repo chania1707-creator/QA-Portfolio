@@ -1,16 +1,30 @@
-# Bug Report – Login
+### 🐞 Bug Report: Login button not responding
 
-**Title:** Login button not responding
+**Severity:** Medium  
+**Environment:** Chrome  
 
-**Steps to reproduce:**
-1. Open the demo website
-2. Click the login button
+---
 
-**Expected Result:**  
-Login page should open.
+### 📌 Steps to Reproduce:
+1. Open the demo website  
+2. Click the "Login" button  
 
-**Actual Result:**  
+---
+
+### ✅ Expected Result:
+User should be redirected to the login page.
+
+---
+
+### ❌ Actual Result:
 Nothing happens after clicking the button.
 
-**Environment:** Chrome browser  
-**Severity:** Medium
+---
+
+### 📷 Screenshot:
+![Login button bug](./screenshots/login-button-bug.png)
+
+---
+
+### 📝 Notes:
+The button appears clickable but does not trigger any action.
